@@ -1,0 +1,28 @@
+{
+  "name": "beanstalkd-lambda",
+  "version": "0.0.1",
+  "description": "Power of lambda scaling with beanstalkd semantics",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burstable/node-beanstalkd-lambda.git"
+  },
+  "keywords": [
+    "beanstalkd",
+    "lambda",
+    "proxy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burstable/node-beanstalkd-lambda/issues"
+  },
+  "homepage": "https://github.com/burstable/node-beanstalkd-lambda#readme",
+  "dependencies": {
+    "aws-sdk": "^2.94.0",
+    "beanstalkd-worker": "^1.1.0"
+  }
+}
